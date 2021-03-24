@@ -1,0 +1,15 @@
+#f.write(str)
+#f.writelines(list of lines)
+
+f = open('abc.txt','w')
+f.write('rizwan')
+f.write('software')
+f.write('solutions\n')
+f.write('delhi')
+f.close()
+print('data written to the file successfullt')
+
+f = open('abc.txt','a')
+f.write('Appending to the file')
+f.close()
+print('data written to the file successfullt')
